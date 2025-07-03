@@ -23,7 +23,7 @@ jobs:
           pip install firebase-admin
           pip install pandas
           pip install numpy
-          pip install yfinance
+          pip3 install yfinance
 
       - name: Write Firebase key JSON
         env:
